@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: lime;
+        }
+        div > div{
+            background: plum;
+        }
+        div + section{
+            background: palegreen;
+        }
+        div ~ p {
+            color: yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Descendientes -->
+    <div>
+        <p>Platzi</p>
+        <p>Es</p>
+        <p>increible</p>
+    </div>
+    <!-- Hijo directo -->
+    <div>
+        <p>Platzi</p>
+        <div>Es</div>
+    </div>
+    <!-- Elementos adyacentes -->
+    <div>
+        Master
+    </div>
+    <section>Esta es una sección </section>
+    <!-- Elementos hermanos -->
+    <p>Clase de selectores</p>
+</body>
+</html>
